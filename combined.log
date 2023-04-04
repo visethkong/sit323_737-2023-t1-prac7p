@@ -1,3 +1,0 @@
-{"level":"info","message":"Parameters 5 and 0 received for divide","service":"calculate-service"}
-{"level":"error","message":"n1 is incorrectly defined","service":"calculate-service"}
-{"level":"info","message":"Parameters 10 and 2 received for divide","service":"calculate-service"}

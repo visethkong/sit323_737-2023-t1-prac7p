@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    image: visethkong/node-web-app
+    ports:
+      - 4026:8080
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://0.0.0.0:8080"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
